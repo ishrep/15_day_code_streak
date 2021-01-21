@@ -1,3 +1,5 @@
+/*Given a string str, the task is to find the minimum number of characters to be inserted to convert it to palindrome.*/
+
 #include<iostream>
 #include<string.h>
 using namespace std;
