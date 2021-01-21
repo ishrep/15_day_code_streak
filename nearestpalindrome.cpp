@@ -27,7 +27,7 @@ int mininsertions(char a[], int b){
 void nearestpalindrome(char a[]){
     cout<<strlen(a);
     int count = repeaters(a);
-    cout<<"minimum insertions required to convert the string in to sa palindrome: "<<mininsertions(a,count)<<endl;
+    cout<<"minimum insertions required to convert the string in to a palindrome: "<<mininsertions(a,count)<<endl;
     
     
 }
