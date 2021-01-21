@@ -14,8 +14,7 @@ int repeaters(char a[]){
                 temp = j-1;
                 count++;
                 temp2=(((j-i)%2==0)?1:0);
-                cout<<temp2;
-                cout<<a[i]<<a[j];
+
                 break;
             }  
         }
@@ -28,8 +27,8 @@ int mininsertions(char a[], int b){
 void nearestpalindrome(char a[]){
     cout<<strlen(a);
     int count = repeaters(a);
-    cout<<mininsertions(a,count)<<endl;
-
+    cout<<"minimum insertions required to convert the string in to sa palindrome: "<<mininsertions(a,count)<<endl;
+    
     
 }
 int main(){
