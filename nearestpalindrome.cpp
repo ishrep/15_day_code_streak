@@ -8,7 +8,7 @@ int repeaters(char a[],int i){
     int count = 0;
     int j;
     int temp= (strlen(a)-1);
-    int temp2=0;
+    int temp2=1;
     int c;
     int b;
     int tempcount = 0;
@@ -17,7 +17,7 @@ int repeaters(char a[],int i){
             if(a[i]== a[j]){    
                 temp = j-1;
                 count++;
-                temp2=(((j-i)%2==0)?1:0);
+                temp2=(((j-i)==0)?0:1);
                 c= repeaters(a,i+1);
                 tempcount= (tempcount>c)?tempcount:c;
                 break;
