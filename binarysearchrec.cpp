@@ -13,7 +13,7 @@ void search(int a[],int l, int r,int num){
     if (a[m]<num){
         return search(a,m+1,r,num);
         }
-    return search(a,l,m,num);
+    return search(a,l,m-1,num);
 }
 void sort(int a[],int n){
     int i,j,temp;
